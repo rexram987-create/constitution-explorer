@@ -7,159 +7,33 @@
   <title>Constitution Explorer | חוקרים את החוקה האמריקאית</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/mobile-nav-fix.css">
+  <link rel="stylesheet" href="css/content-pages.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">דלג לתוכן הראשי</a>
-
-  <header class="site-header">
-    <div class="nav-shell">
-      <a class="brand" href="#home" aria-label="Constitution Explorer — עמוד הבית">
-        <span class="brand-seal" aria-hidden="true">★</span>
-        <span>
-          <strong>Constitution Explorer</strong>
-          <small>מסע אינטראקטיבי אל החוקה האמריקאית</small>
-        </span>
-      </a>
-
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="פתיחת תפריט הניווט">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav id="main-navigation" class="main-nav" aria-label="ניווט ראשי">
-        <a href="#history">היסטוריה</a>
-        <a href="#structure">מבנה החוקה</a>
-        <a href="#branches">שלוש הרשויות</a>
-        <a href="#simulator">סימולטור חקיקה</a>
-        <a href="#quiz">חידון</a>
-      </nav>
-    </div>
-  </header>
+  <header class="site-header"><div class="nav-shell">
+    <a class="brand" href="#home" aria-label="Constitution Explorer — עמוד הבית"><span class="brand-seal" aria-hidden="true">★</span><span><strong>Constitution Explorer</strong><small>מסע אינטראקטיבי אל החוקה האמריקאית</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="פתיחת תפריט הניווט"><span></span><span></span><span></span></button>
+    <nav id="main-navigation" class="main-nav" aria-label="ניווט ראשי"><a href="#history">היסטוריה</a><a href="articles.html">שבעת הסעיפים</a><a href="amendments.html">27 התיקונים</a><a href="#branches">שלוש הרשויות</a><a href="#simulator">סימולטור חקיקה</a><a href="#quiz">חידון</a></nav>
+  </div></header>
 
   <main id="main-content">
-    <section id="home" class="hero section-pad">
-      <div class="hero-glow" aria-hidden="true"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">פילדלפיה · 1787</p>
-          <h1>המסמך שעיצב את השלטון האמריקאי</h1>
-          <p class="lead">גלו כיצד נכתבה החוקה, איך היא מחלקת את הכוח בין מוסדות השלטון, ומה קורה להצעת חוק מהרגע שבו היא נולדת ועד שהיא הופכת לחוק.</p>
-          <div class="hero-actions">
-            <a class="button primary" href="#simulator">התחלת הסימולטור</a>
-            <a class="button secondary" href="#history">ללמוד על ההיסטוריה</a>
-          </div>
-          <dl class="hero-facts" aria-label="עובדות מרכזיות">
-            <div><dt>7</dt><dd>סעיפים מקוריים</dd></div>
-            <div><dt>27</dt><dd>תיקונים</dd></div>
-            <div><dt>3</dt><dd>רשויות שלטון</dd></div>
-          </dl>
-        </div>
+    <section id="home" class="hero section-pad"><div class="hero-glow" aria-hidden="true"></div><div class="container hero-grid">
+      <div class="hero-copy"><p class="eyebrow">פילדלפיה · 1787</p><h1>המסמך שעיצב את השלטון האמריקאי</h1><p class="lead">גלו כיצד נכתבה החוקה, איך היא מחלקת את הכוח בין מוסדות השלטון, ומה קורה להצעת חוק מהרגע שבו היא נולדת ועד שהיא הופכת לחוק.</p><div class="hero-actions"><a class="button primary" href="#simulator">התחלת הסימולטור</a><a class="button secondary" href="articles.html">לחקור את החוקה</a></div><dl class="hero-facts" aria-label="עובדות מרכזיות"><div><dt>7</dt><dd>סעיפים מקוריים</dd></div><div><dt>27</dt><dd>תיקונים</dd></div><div><dt>3</dt><dd>רשויות שלטון</dd></div></dl></div>
+      <div class="constitution-visual" role="img" aria-label="איור דקורטיבי של מגילת החוקה האמריקאית"><div class="parchment"><span class="quill" aria-hidden="true">✦</span><p class="script-title">We the People</p><div class="ink-line wide"></div><div class="ink-line"></div><div class="ink-line"></div><div class="ink-line short"></div><div class="seal">1787</div></div></div>
+    </div></section>
 
-        <div class="constitution-visual" role="img" aria-label="איור דקורטיבי של מגילת החוקה האמריקאית">
-          <div class="parchment">
-            <span class="quill" aria-hidden="true">✦</span>
-            <p class="script-title">We the People</p>
-            <div class="ink-line wide"></div>
-            <div class="ink-line"></div>
-            <div class="ink-line"></div>
-            <div class="ink-line short"></div>
-            <div class="seal">1787</div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section id="history" class="section-pad"><div class="container"><div class="section-heading"><p class="eyebrow">הרקע ההיסטורי</p><h2>מדוע נדרשה חוקה חדשה?</h2><p>לאחר מלחמת העצמאות, ארצות הברית פעלה תחת מסגרת שלטונית חלשה יחסית. ועידת פילדלפיה התכנסה כדי לתקן את המצב, אך נציגיה יצרו לבסוף מסמך חדש לגמרי.</p></div><div class="timeline" aria-label="ציר זמן היסטורי"><article><time>1776</time><h3>הכרזת העצמאות</h3><p>שלוש־עשרה המושבות מכריזות על עצמאותן מבריטניה.</p></article><article><time>1781</time><h3>תקנון הקונפדרציה</h3><p>המסגרת הראשונה מאחדת את המדינות, אך מעניקה סמכויות מוגבלות לממשל המרכזי.</p></article><article><time>1787</time><h3>ועידת פילדלפיה</h3><p>הנציגים מתכנסים ומנסחים חוקה שמחלקת את הכוח בין רשויות ומדינות.</p></article><article><time>1788</time><h3>אשרור החוקה</h3><p>מספר המדינות הדרוש מאשר את החוקה והיא נכנסת לתוקף.</p></article><article><time>1791</time><h3>מגילת הזכויות</h3><p>עשרת התיקונים הראשונים מצטרפים לחוקה ומעגנים חירויות מרכזיות.</p></article></div></div></section>
 
-    <section id="history" class="section-pad">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">הרקע ההיסטורי</p>
-          <h2>מדוע נדרשה חוקה חדשה?</h2>
-          <p>לאחר מלחמת העצמאות, ארצות הברית פעלה תחת מסגרת שלטונית חלשה יחסית. ועידת פילדלפיה התכנסה כדי לתקן את המצב, אך נציגיה יצרו לבסוף מסמך חדש לגמרי.</p>
-        </div>
+    <section id="structure" class="section-pad panel-section"><div class="container"><div class="section-heading"><p class="eyebrow">מבנה המסמך</p><h2>מה נמצא בתוך החוקה?</h2></div><div class="cards-grid structure-grid"><article class="info-card"><span>01</span><h3>המבוא</h3><p>פתיחה קצרה שמציגה את מטרות החוקה ואת הרעיון שהסמכות נובעת מן העם.</p></article><a class="home-card-link" href="articles.html"><article class="info-card"><span>02</span><h3>שבעת הסעיפים</h3><p>היכנסו למדריך המלא על הקונגרס, הנשיאות, מערכת המשפט, המדינות ותהליך שינוי החוקה.</p></article></a><a class="home-card-link" href="amendments.html"><article class="info-card"><span>03</span><h3>27 התיקונים</h3><p>עיינו בכל התיקונים וסננו אותם לפי זכויות, מוסדות, בחירות ונשיאות.</p></article></a></div></div></section>
 
-        <div class="timeline" aria-label="ציר זמן היסטורי">
-          <article><time>1776</time><h3>הכרזת העצמאות</h3><p>שלוש־עשרה המושבות מכריזות על עצמאותן מבריטניה.</p></article>
-          <article><time>1781</time><h3>תקנון הקונפדרציה</h3><p>המסגרת הראשונה מאחדת את המדינות, אך מעניקה סמכויות מוגבלות לממשל המרכזי.</p></article>
-          <article><time>1787</time><h3>ועידת פילדלפיה</h3><p>הנציגים מתכנסים ומנסחים חוקה שמחלקת את הכוח בין רשויות ומדינות.</p></article>
-          <article><time>1788</time><h3>אשרור החוקה</h3><p>מספר המדינות הדרוש מאשר את החוקה והיא נכנסת לתוקף.</p></article>
-          <article><time>1791</time><h3>מגילת הזכויות</h3><p>עשרת התיקונים הראשונים מצטרפים לחוקה ומעגנים חירויות מרכזיות.</p></article>
-        </div>
-      </div>
-    </section>
+    <section id="branches" class="section-pad"><div class="container"><div class="section-heading"><p class="eyebrow">הפרדת רשויות</p><h2>שלושה מוקדי כוח שמאזנים זה את זה</h2></div><div class="cards-grid branches-grid"><article class="branch-card congress"><div class="icon" aria-hidden="true">🏛️</div><h3>הרשות המחוקקת</h3><p>הקונגרס, המורכב מבית הנבחרים ומהסנאט, מציע ומאשר חוקים.</p><button class="detail-button" data-detail="congress">הצגת סמכויות</button></article><article class="branch-card executive"><div class="icon" aria-hidden="true">🦅</div><h3>הרשות המבצעת</h3><p>הנשיא והממשל הפדרלי אחראים לביצוע החוקים ולניהול ענייני המדינה.</p><button class="detail-button" data-detail="executive">הצגת סמכויות</button></article><article class="branch-card judiciary"><div class="icon" aria-hidden="true">⚖️</div><h3>הרשות השופטת</h3><p>בתי המשפט מפרשים את החוק ובוחנים מחלוקות חוקתיות.</p><button class="detail-button" data-detail="judiciary">הצגת סמכויות</button></article></div><div id="branch-detail" class="branch-detail" aria-live="polite">בחרו רשות כדי לראות כיצד היא משתתפת במערכת האיזונים והבלמים.</div></div></section>
 
-    <section id="structure" class="section-pad panel-section">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">מבנה המסמך</p>
-          <h2>מה נמצא בתוך החוקה?</h2>
-        </div>
-        <div class="cards-grid structure-grid">
-          <article class="info-card"><span>01</span><h3>המבוא</h3><p>פתיחה קצרה שמציגה את מטרות החוקה ואת הרעיון שהסמכות נובעת מן העם.</p></article>
-          <article class="info-card"><span>02</span><h3>שבעת הסעיפים</h3><p>הגדרת הקונגרס, הנשיאות, מערכת המשפט, היחסים בין המדינות ותהליך שינוי החוקה.</p></article>
-          <article class="info-card"><span>03</span><h3>התיקונים</h3><p>שינויים ותוספות שנועדו להרחיב זכויות, לשנות הליכים ולהתאים את החוקה למציאות משתנה.</p></article>
-        </div>
-      </div>
-    </section>
+    <section id="simulator" class="section-pad simulator-section"><div class="container simulator-layout"><div class="section-heading simulator-intro"><p class="eyebrow">סימולטור אינטראקטיבי</p><h2>האם הצעת החוק שלכם תעבור?</h2><p>בחרו החלטה בכל שלב. הסימולטור ידגים כיצד הצעה עוברת בין בתי הקונגרס, הנשיא ומערכת האיזונים והבלמים.</p><button id="restart-simulator" class="button secondary compact" type="button">התחלה מחדש</button></div><div class="simulator-card"><div class="progress-track" aria-label="התקדמות בסימולטור"><span class="progress-step active">1</span><span class="progress-line"></span><span class="progress-step">2</span><span class="progress-line"></span><span class="progress-step">3</span><span class="progress-line"></span><span class="progress-step">4</span></div><div id="simulation-content" class="simulation-content" aria-live="polite"></div></div></div></section>
 
-    <section id="branches" class="section-pad">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">הפרדת רשויות</p>
-          <h2>שלושה מוקדי כוח שמאזנים זה את זה</h2>
-        </div>
-        <div class="cards-grid branches-grid">
-          <article class="branch-card congress"><div class="icon" aria-hidden="true">🏛️</div><h3>הרשות המחוקקת</h3><p>הקונגרס, המורכב מבית הנבחרים ומהסנאט, מציע ומאשר חוקים.</p><button class="detail-button" data-detail="congress">הצגת סמכויות</button></article>
-          <article class="branch-card executive"><div class="icon" aria-hidden="true">🦅</div><h3>הרשות המבצעת</h3><p>הנשיא והממשל הפדרלי אחראים לביצוע החוקים ולניהול ענייני המדינה.</p><button class="detail-button" data-detail="executive">הצגת סמכויות</button></article>
-          <article class="branch-card judiciary"><div class="icon" aria-hidden="true">⚖️</div><h3>הרשות השופטת</h3><p>בתי המשפט מפרשים את החוק ובוחנים מחלוקות חוקתיות.</p><button class="detail-button" data-detail="judiciary">הצגת סמכויות</button></article>
-        </div>
-        <div id="branch-detail" class="branch-detail" aria-live="polite">בחרו רשות כדי לראות כיצד היא משתתפת במערכת האיזונים והבלמים.</div>
-      </div>
-    </section>
-
-    <section id="simulator" class="section-pad simulator-section">
-      <div class="container simulator-layout">
-        <div class="section-heading simulator-intro">
-          <p class="eyebrow">סימולטור אינטראקטיבי</p>
-          <h2>האם הצעת החוק שלכם תעבור?</h2>
-          <p>בחרו החלטה בכל שלב. הסימולטור ידגים כיצד הצעה עוברת בין בתי הקונגרס, הנשיא ומערכת האיזונים והבלמים.</p>
-          <button id="restart-simulator" class="button secondary compact" type="button">התחלה מחדש</button>
-        </div>
-
-        <div class="simulator-card">
-          <div class="progress-track" aria-label="התקדמות בסימולטור">
-            <span class="progress-step active">1</span><span class="progress-line"></span>
-            <span class="progress-step">2</span><span class="progress-line"></span>
-            <span class="progress-step">3</span><span class="progress-line"></span>
-            <span class="progress-step">4</span>
-          </div>
-          <div id="simulation-content" class="simulation-content" aria-live="polite"></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="quiz" class="section-pad">
-      <div class="container quiz-box">
-        <div>
-          <p class="eyebrow">בדיקת ידע</p>
-          <h2>שאלה מהירה</h2>
-          <p id="quiz-question">איזו רשות מורכבת מבית הנבחרים ומהסנאט?</p>
-        </div>
-        <div class="quiz-options">
-          <button data-answer="wrong">הרשות המבצעת</button>
-          <button data-answer="correct">הרשות המחוקקת</button>
-          <button data-answer="wrong">הרשות השופטת</button>
-        </div>
-        <p id="quiz-feedback" class="quiz-feedback" aria-live="polite"></p>
-      </div>
-    </section>
+    <section id="quiz" class="section-pad"><div class="container quiz-box"><div><p class="eyebrow">בדיקת ידע</p><h2>שאלה מהירה</h2><p id="quiz-question">איזו רשות מורכבת מבית הנבחרים ומהסנאט?</p></div><div class="quiz-options"><button data-answer="wrong">הרשות המבצעת</button><button data-answer="correct">הרשות המחוקקת</button><button data-answer="wrong">הרשות השופטת</button></div><p id="quiz-feedback" class="quiz-feedback" aria-live="polite"></p></div></section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p><strong>Constitution Explorer</strong> — פרויקט לימודי אינטראקטיבי בעברית.</p>
-      <p>האתר מציג הסבר לימודי כללי ואינו מהווה ייעוץ משפטי.</p>
-    </div>
-  </footer>
-
+  <footer class="site-footer"><div class="container footer-inner"><p><strong>Constitution Explorer</strong> — פרויקט לימודי אינטראקטיבי בעברית.</p><p>האתר מציג הסבר לימודי כללי ואינו מהווה ייעוץ משפטי.</p></div></footer>
   <script src="js/main.js"></script>
 </body>
 </html>
